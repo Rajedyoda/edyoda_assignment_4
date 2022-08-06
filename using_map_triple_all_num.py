@@ -1,0 +1,5 @@
+nums = list(int(i) for i in input("Enter the List of Integer to triple it : "))
+print("Original list: ", nums)
+result_triple = list(map(lambda no1: no1 + no1 + no1, nums))
+print("\nTriple of said list numbers:")
+print(result_triple)
